@@ -1,3 +1,5 @@
+/*Write a C program to display as well as resets the environment variable such as path, 
+home, root etc.*/
 #include <stdio.h>
 #include <stdlib.h>
 
