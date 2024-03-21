@@ -1,3 +1,10 @@
+/*Write a C program that behaves like a shell (command interpreter). It has its own prompt 
+say “NewShell$”.Any normal shell command is executed from your shell by starting a 
+child process to execute the system program corresponding to the command. It should 
+additionally interpret the following command. 
+i) search f <pattern><filename> - search first occurrence of pattern in filename 
+ii) search c <pattern><filename> - count no. of occurrences of pattern in filename 
+iii) search a <pattern><filename> - search all occurrences of pattern in filename */
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
