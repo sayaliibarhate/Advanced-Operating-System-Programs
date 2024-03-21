@@ -1,3 +1,8 @@
+/*Write a C program to create an unnamed pipe. The child process will write following 
+three messages to pipe and parent process display it. 
+Message1 = “Hello World” 
+Message2 = “Hello SPPU” 
+Message3 = “Linux is Funny” */
 #include <stdio.h>
 #include <unistd.h>
 
