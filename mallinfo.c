@@ -1,3 +1,5 @@
+/*Write a C program to display statistics related to memory allocation system. (Use 
+mallinfo() system call). */
 #include <stdio.h>
 #include <malloc.h>
 
