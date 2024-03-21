@@ -1,3 +1,5 @@
+/*Write a C program to Identify the type (Directory, character device, Block device, 
+Regular file, FIFO or pipe, symbolic link or socket) of given file using stat() system call*/
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
