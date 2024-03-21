@@ -1,3 +1,5 @@
+/*Write a C program to display all the files from current directory which are created in a 
+particular month.*/
 #include <stdio.h>
 #include <dirent.h>
 #include <string.h>
