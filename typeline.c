@@ -1,3 +1,10 @@
+/*Write a C program that behaves like a shell (command interpreter). It has its own prompt 
+say “NewShell$”. Any normal shell command is executed from your shell by starting a 
+child process to execute the system program corresponding to the command. It should 
+additionally interpret the following command. 
+i) typeline +10 <filename> - print first 10 lines of file 
+ii) typeline -20 <filename> - print last 20 lines of file 
+iii) typeline a <filename> - print all lines of file*/
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
