@@ -1,3 +1,4 @@
+/*Write a C program to create a file with hole in it. */
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
