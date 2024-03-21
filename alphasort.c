@@ -1,3 +1,5 @@
+/*Write a C program that will only list all subdirectories in alphabetical order from current 
+directory*/
 #include <stdio.h>
 #include <dirent.h>
 #include <stdlib.h>
