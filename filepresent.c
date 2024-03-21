@@ -1,3 +1,4 @@
+/*Write a C program to find whether a given file is present in current directory or not*/
 #include <stdio.h>
 #include <unistd.h>
 
