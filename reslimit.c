@@ -1,3 +1,5 @@
+/*Write a C program to get and set the resource limits such as files, memory associated 
+with a process.*/
 #include <stdio.h>
 #include <sys/resource.h>
 #include <string.h>
