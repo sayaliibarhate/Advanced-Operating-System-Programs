@@ -1,3 +1,10 @@
+/*Write a C program that behaves like a shell (command interpreter). It has its own prompt 
+say “NewShell$”. Any normal shell command is executed from your shell by starting a 
+child process to execute the system program corresponding to the command. It should 
+additionally interpret the following command. 
+i) list f<dirname> - print name of all files in directory 
+ii) list n <dirname> - print number of all entries 
+iii) list i<dirname> - print name and inode of all files*/
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
