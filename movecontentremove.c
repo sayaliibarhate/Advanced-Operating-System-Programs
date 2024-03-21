@@ -1,3 +1,5 @@
+/*Write a C program to move the content of file1.txt to file2.txt and remove the file1.txt 
+from directory.*/
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
