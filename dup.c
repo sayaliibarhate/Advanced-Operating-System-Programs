@@ -1,3 +1,5 @@
+/*Write a C program that redirects standard output to a file output.txt. (use of dup and open 
+system call).*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
